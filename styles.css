@@ -1,0 +1,51 @@
+.flashy-card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+}
+
+.flashy-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flashy-centered {
+    text-align: center;
+}
+
+/* fix the css in source mode */
+
+.markdown-source-view .flashy-markdown h1, .markdown-source-view .flashy-markdown h2, .markdown-source-view .flashy-markdown h3, .markdown-source-view .flashy-markdown h4, .markdown-source-view .flashy-markdown h5, .markdown-source-view .flashy-markdown h6, .markdown-source-view .flashy-markdown p {
+    margin-bottom: -0.5em;
+    margin-top: -0.5em;
+    padding: 0em;
+}
+
+.markdown-source-view .flashy-markdown {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.markdown-source-view .flashy-markdown .math-block .MathJax {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+/* make float to the top right corner */
+.flashy-floating-action-button {
+    position: fixed;
+    right: 0px;
+    top: 20px;
+}
+
+.flashy-icon-button {
+    color: #ccc;
+    background-color: transparent;
+}
+.flashy-icon-button:hover {
+    color: #000;
+    background-color: transparent;
+}
